@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lheyberger.github.io/mtg-json-schema/schemas/card-0.0.1.json",
+  "title": "card-0.0.1.json",
+  "description": "A single mtg card",
+  "type": "object"
+}
