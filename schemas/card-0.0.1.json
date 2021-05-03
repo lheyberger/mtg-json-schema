@@ -1,7 +1,26 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://lheyberger.github.io/mtg-json-schema/schemas/card-0.0.1.json",
-  "title": "card-0.0.1.json",
-  "description": "A single mtg card",
-  "type": "object"
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://lheyberger.github.io/mtg-json-schema/schemas/card-0.0.1.json",
+    "title": "card-0.0.1.json",
+    "description": "A single mtg card",
+    "type": "object",
+    "default": {},
+    "required": [
+        "quantity",
+        "name"
+    ],
+    "properties": {
+        "quantity": {
+            "$id": "#/properties/version",
+            "type": "integer",
+            "default": 0,
+            "minimum": 0
+        },
+        "name": {
+            "$id": "#/properties/name",
+            "type": "string",
+            "default": ""
+        }
+    },
+    "additionalProperties": true
 }
