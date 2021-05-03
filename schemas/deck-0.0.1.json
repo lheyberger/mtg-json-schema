@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://lheyberger.github.io/mtg-json-schema/schemas/deck-0.0.1.json",
+    "title": "deck-0.0.1.json",
+    "description": "A single deck",
+    "type": "object",
+    "required": [
+        "name",
+        "cards"
+    ],
+    "properties": {
+        "name": {
+            "$id": "#/properties/name",
+            "type": "string",
+            "default": ""
+        },
+        "cards": {
+            "$id": "#/properties/cards",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$ref": "https://lheyberger.github.io/mtg-json-schema/schemas/card-0.0.1.json"
+            },
+            "minItems": 0
+        }
+    },
+    "additionalProperties": true
+}
