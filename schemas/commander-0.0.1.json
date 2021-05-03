@@ -1,5 +1,5 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://lheyberger.github.io/mtg-json-schema/schemas/commander-0.0.1.json",
     "title": "commander-0.0.1.json",
     "description": "A single commander deck",
